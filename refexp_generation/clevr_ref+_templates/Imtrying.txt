@@ -1,0 +1,66 @@
+  --------
+  {
+    "text": [
+      "Everything except the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "inputs": [0, 1],
+        "type": "not"
+      },
+      {
+        "inputs": [2],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      }
+    ],
+    "constraints": []
+  }

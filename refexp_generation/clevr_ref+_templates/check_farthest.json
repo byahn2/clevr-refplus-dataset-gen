@@ -1,0 +1,342 @@
+ [
+   {
+    "text": [
+      "The <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> that is farthest <R>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "side_inputs": [
+          "<R>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "farthest"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      }
+    ]
+  },
+   {
+    "text": [
+      "The two <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> that are farthest <R>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "side_inputs": [
+          "<R>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "two_farthest"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      }
+    ]
+  },
+   {
+    "text": [
+      "The three <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> that are farthest <R>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "side_inputs": [
+          "<R>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "three_farthest"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      }
+    ]
+  },
+      {
+    "text": [
+      "The four <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> that are farthest <R>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "side_inputs": [
+          "<R>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "four_farthest"
+      },
+      {
+        "inputs": [
+          2
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      }
+    ]
+  }
+ ]

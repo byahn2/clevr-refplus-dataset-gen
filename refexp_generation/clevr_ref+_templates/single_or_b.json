@@ -1,0 +1,1428 @@
+[
+   {
+    "text": [
+      "Things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>",
+      "Objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          1,
+          3
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          4
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "OUT_NEQ",
+        "params": [
+          1,
+          3
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      }
+    ]
+  },
+  {
+    "text": [
+      "<Z3> things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>",
+      "<Z3> objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          1,
+          3
+        ],
+        "type": "union"
+      },
+      {
+        "side_inputs": [
+          "<Z3>"
+        ],
+        "inputs": [
+          4
+        ],
+        "type": "filter_size"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "OUT_NEQ",
+        "params": [
+          1,
+          3
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": [
+          "<Z>"
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": [
+          "<Z2>"
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      }
+    ]
+  },
+  {
+    "text": [
+      "<C3> things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>",
+      "<C3> objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          1,
+          3
+        ],
+        "type": "union"
+      },
+      {
+        "side_inputs": [
+          "<C3>"
+        ],
+        "inputs": [
+          4
+        ],
+        "type": "filter_color"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "OUT_NEQ",
+        "params": [
+          1,
+          3
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      }
+    ]
+  },
+  {
+    "text": [
+      "Things that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R2> of the <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3>",
+      "Objects that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R2> of the <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>",
+          "<rORD_NUM3>",
+          "<ORD_DIR3>",
+          "<VIS3>"
+        ],
+        "inputs": [
+          3
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R2>",
+          "<Z4>",
+          "<C4>",
+          "<M4>",
+          "<S4>",
+          "<rORD_NUM4>",
+          "<ORD_DIR4>",
+          "<VIS4>"
+        ],
+        "inputs": [
+          4
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [
+          2,
+          5
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          6
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z4>"
+      },
+      {
+        "type": "Color",
+        "name": "<C4>"
+      },
+      {
+        "type": "Material",
+        "name": "<M4>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S4>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM3>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR3>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS3>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM4>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR4>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS4>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM4>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR4>"]
+      }
+    ]
+  },
+  {
+    "text": [
+      "<M3> things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>",
+      "<M3> objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          1,
+          3
+        ],
+        "type": "union"
+      },
+      {
+        "side_inputs": [
+          "<M3>"
+        ],
+        "inputs": [
+          4
+        ],
+        "type": "filter_material"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "OUT_NEQ",
+        "params": [
+          1,
+          3
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": [
+          "<M>"
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": [
+          "<M2>"
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      }
+    ]
+  },
+  {
+    "text": [
+      "<S3>(s) <ORD_DIR2> that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          2,
+          3
+        ],
+        "type": "union"
+      },
+      {
+        "side_inputs": [
+          "<S3>"
+        ],
+        "inputs": [
+          4
+        ],
+        "type": "filter_shape"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "OUT_NEQ",
+        "params": [
+          2,
+          3
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": [
+          "<S>"
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": [
+          "<S2>"
+        ]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      }
+    ]
+  },
+  {
+    "text": [
+      "Things that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>",
+      "Objects that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          1
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>",
+          "<rORD_NUM3>",
+          "<ORD_DIR3>",
+          "<VIS3>"
+        ],
+        "inputs": [
+          3
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [
+          2,
+          4
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM3>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR3>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS3>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR3>"]
+      }
+    ]
+  },
+  {
+    "text": [
+      "Things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are to the <R> of the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2>",
+      "Objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are to the <R> of the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2>"
+    ],
+    "nodes": [
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
+          "<VIS>"
+        ],
+        "inputs": [
+          0
+        ],
+        "type": "filter"
+      },
+      {
+        "inputs": [],
+        "type": "scene"
+      },
+      {
+        "side_inputs": [
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<rORD_NUM2>",
+          "<ORD_DIR2>",
+          "<VIS2>"
+        ],
+        "inputs": [
+          2
+        ],
+        "type": "filter_unique"
+      },
+      {
+        "side_inputs": [
+          "<R>",
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>",
+          "<rORD_NUM3>",
+          "<ORD_DIR3>",
+          "<VIS3>"
+        ],
+        "inputs": [
+          3
+        ],
+        "type": "relate_filter"
+      },
+      {
+        "inputs": [
+          1,
+          4
+        ],
+        "type": "union"
+      },
+      {
+        "inputs": [
+          5
+        ],
+        "type": "count"
+      }
+    ],
+    "params": [
+      {
+        "type": "Size",
+        "name": "<Z>"
+      },
+      {
+        "type": "Color",
+        "name": "<C>"
+      },
+      {
+        "type": "Material",
+        "name": "<M>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z2>"
+      },
+      {
+        "type": "Color",
+        "name": "<C2>"
+      },
+      {
+        "type": "Material",
+        "name": "<M2>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S2>"
+      },
+      {
+        "type": "Relation",
+        "name": "<R>"
+      },
+      {
+        "type": "Size",
+        "name": "<Z3>"
+      },
+      {
+        "type": "Color",
+        "name": "<C3>"
+      },
+      {
+        "type": "Material",
+        "name": "<M3>"
+      },
+      {
+        "type": "Shape",
+        "name": "<S3>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM2>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR2>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS2>"
+      },
+      {
+        "type": "Ordinal_number",
+        "name": "<rORD_NUM3>"
+      },
+      {
+        "type": "Ordinal_direction",
+        "name": "<ORD_DIR3>"
+      },
+      {
+        "type": "Visible",
+        "name": "<VIS3>"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR3>"]
+      }
+    ]
+  }
+]

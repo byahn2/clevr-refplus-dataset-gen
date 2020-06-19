@@ -1,9 +1,9 @@
 [
   {
     "text": [
-      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "Find <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> it", 
-      "Look at <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> it"
+      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>",
+      "find the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> of it",
+      "look at the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> of it"
     ], 
     "nodes": [
       {
@@ -156,9 +156,9 @@
   },
   {
     "text": [
-      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "Find <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> it", 
-      "Look at <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> it"
+      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>",
+      "find <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> of it",
+      "look at <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R2> of it"
     ], 
     "nodes": [
       {

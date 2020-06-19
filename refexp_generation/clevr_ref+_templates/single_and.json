@@ -1,7 +1,7 @@
 [
   {
     "text": [
-      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are [both] <R2> the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> and <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are [both] to the <R2> of the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> and to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -181,7 +181,7 @@
   },
   {
     "text": [
-      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are [both] <R2> the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> and <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "<rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are [both] to the <R2> of the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> and to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>"
     ], 
     "nodes": [
       {

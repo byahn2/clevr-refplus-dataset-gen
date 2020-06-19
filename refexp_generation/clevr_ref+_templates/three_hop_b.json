@@ -4,7 +4,7 @@
       "<rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R3> of the <ORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3> that is to the <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>",
       "Find <ORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3> that is to the <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R3> of it",
       "Look at <ORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3> that is to the <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R3> of it"
-     ],
+    ],
     "nodes": [
       {
         "inputs": [],
@@ -200,209 +200,275 @@
         "name": "<VIS4>"
       }
     ],
-    "constraints": []
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_NUM3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM4>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR4>"]
+      }
+    ]
   },
   {
     "text": [
       "<rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R3> of the <ORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3> that is to the <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>",
       "Find <ORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3> that is to the <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R3> of it",
       "Look at <ORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3> that is to the <R2> of the <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2> that is to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR>; <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R3> of it"
-     ],
+    ],
     "nodes": [
       {
-        "inputs": [], 
+        "inputs": [],
         "type": "scene"
-      }, 
+      },
       {
         "side_inputs": [
-          "<Z>", 
-          "<C>", 
-          "<M>", 
-          "<S>", 
-          "<rORD_NUM>", 
-          "<ORD_DIR>", 
+          "<Z>",
+          "<C>",
+          "<M>",
+          "<S>",
+          "<rORD_NUM>",
+          "<ORD_DIR>",
           "<VIS>"
-        ], 
+        ],
         "inputs": [
           0
-        ], 
+        ],
         "type": "filter_unique"
-      }, 
+      },
       {
         "side_inputs": [
-          "<R>", 
-          "<Z2>", 
-          "<C2>", 
-          "<M2>", 
-          "<S2>", 
-          "<ORD_NUM2>", 
-          "<ORD_DIR2>", 
+          "<R>",
+          "<Z2>",
+          "<C2>",
+          "<M2>",
+          "<S2>",
+          "<ORD_NUM2>",
+          "<ORD_DIR2>",
           "<VIS2>"
-        ], 
+        ],
         "inputs": [
           1
-        ], 
+        ],
         "type": "relate_filter_unique"
-      }, 
+      },
       {
         "side_inputs": [
-          "<R2>", 
-          "<Z3>", 
-          "<C3>", 
-          "<M3>", 
-          "<S3>", 
-          "<ORD_NUM3>", 
-          "<ORD_DIR3>", 
+          "<R2>",
+          "<Z3>",
+          "<C3>",
+          "<M3>",
+          "<S3>",
+          "<ORD_NUM3>",
+          "<ORD_DIR3>",
           "<VIS3>"
-        ], 
+        ],
         "inputs": [
           2
-        ], 
+        ],
         "type": "relate_filter_unique"
-      }, 
+      },
       {
         "side_inputs": [
-          "<R3>", 
-          "<Z4>", 
-          "<C4>", 
-          "<M4>", 
-          "<S4>", 
-          "<rORD_NUM4>", 
-          "<ORD_DIR4>", 
+          "<R3>",
+          "<Z4>",
+          "<C4>",
+          "<M4>",
+          "<S4>",
+          "<rORD_NUM4>",
+          "<ORD_DIR4>",
           "<VIS4>"
-        ], 
+        ],
         "inputs": [
           3
-        ], 
+        ],
         "type": "relate_filter_count"
       }
-    ], 
+    ],
     "params": [
       {
-        "type": "Size", 
+        "type": "Size",
         "name": "<Z>"
-      }, 
+      },
       {
-        "type": "Color", 
+        "type": "Color",
         "name": "<C>"
-      }, 
+      },
       {
-        "type": "Material", 
+        "type": "Material",
         "name": "<M>"
-      }, 
+      },
       {
-        "type": "Shape", 
+        "type": "Shape",
         "name": "<S>"
-      }, 
+      },
       {
-        "type": "Relation", 
+        "type": "Relation",
         "name": "<R>"
-      }, 
+      },
       {
-        "type": "Size", 
+        "type": "Size",
         "name": "<Z2>"
-      }, 
+      },
       {
-        "type": "Color", 
+        "type": "Color",
         "name": "<C2>"
-      }, 
+      },
       {
-        "type": "Material", 
+        "type": "Material",
         "name": "<M2>"
-      }, 
+      },
       {
-        "type": "Shape", 
+        "type": "Shape",
         "name": "<S2>"
-      }, 
+      },
       {
-        "type": "Relation", 
+        "type": "Relation",
         "name": "<R2>"
-      }, 
+      },
       {
-        "type": "Size", 
+        "type": "Size",
         "name": "<Z3>"
-      }, 
+      },
       {
-        "type": "Color", 
+        "type": "Color",
         "name": "<C3>"
-      }, 
+      },
       {
-        "type": "Material", 
+        "type": "Material",
         "name": "<M3>"
-      }, 
+      },
       {
-        "type": "Shape", 
+        "type": "Shape",
         "name": "<S3>"
-      }, 
+      },
       {
-        "type": "Relation", 
+        "type": "Relation",
         "name": "<R3>"
-      }, 
+      },
       {
-        "type": "Size", 
+        "type": "Size",
         "name": "<Z4>"
-      }, 
+      },
       {
-        "type": "Color", 
+        "type": "Color",
         "name": "<C4>"
-      }, 
+      },
       {
-        "type": "Material", 
+        "type": "Material",
         "name": "<M4>"
-      }, 
+      },
       {
-        "type": "Shape", 
+        "type": "Shape",
         "name": "<S4>"
-      }, 
+      },
       {
-        "type": "Ordinal_number", 
+        "type": "Ordinal_number",
         "name": "<rORD_NUM>"
-      }, 
+      },
       {
-        "type": "Ordinal_direction", 
+        "type": "Ordinal_direction",
         "name": "<ORD_DIR>"
-      }, 
+      },
       {
-        "type": "Visible", 
+        "type": "Visible",
         "name": "<VIS>"
-      }, 
+      },
       {
-        "type": "Ordinal_number", 
+        "type": "Ordinal_number",
         "name": "<ORD_NUM2>"
-      }, 
+      },
       {
-        "type": "Ordinal_direction", 
+        "type": "Ordinal_direction",
         "name": "<ORD_DIR2>"
-      }, 
+      },
       {
-        "type": "Visible", 
+        "type": "Visible",
         "name": "<VIS2>"
-      }, 
+      },
       {
-        "type": "Ordinal_number", 
+        "type": "Ordinal_number",
         "name": "<ORD_NUM3>"
-      }, 
+      },
       {
-        "type": "Ordinal_direction", 
+        "type": "Ordinal_direction",
         "name": "<ORD_DIR3>"
-      }, 
+      },
       {
-        "type": "Visible", 
+        "type": "Visible",
         "name": "<VIS3>"
-      }, 
+      },
       {
-        "type": "Ordinal_number", 
+        "type": "Ordinal_number",
         "name": "<rORD_NUM4>"
-      }, 
+      },
       {
-        "type": "Ordinal_direction", 
+        "type": "Ordinal_direction",
         "name": "<ORD_DIR4>"
-      }, 
+      },
       {
-        "type": "Visible", 
+        "type": "Visible",
         "name": "<VIS4>"
       }
-    ], 
-    "constraints": []
+    ],
+    "constraints": [
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_NUM2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR2>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_NUM3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR3>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<rORD_NUM4>"]
+      },
+      {
+        "type": "NULL",
+        "params": ["<ORD_DIR4>"]
+      }
+    ]
   }
 ]

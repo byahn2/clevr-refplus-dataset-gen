@@ -1,10 +1,10 @@
 [
   {
     "text": [
-      "any other things that have the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that have the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other things that have the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that have the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -80,12 +80,12 @@
   }, 
   {
     "text": [
-      "any other things that have the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things of the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that have the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things of the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other things that have the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things of the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that have the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things of the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -161,10 +161,10 @@
   }, 
   {
     "text": [
-      "any other things that have the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are [made of] the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that have the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are [made of] the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other things that have the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are [made of] the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that have the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are [made of] the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -240,10 +240,10 @@
   }, 
   {
     "text": [
-      "any other things that have the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that have the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other things that are the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other things that have the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that have the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other things that are the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -319,8 +319,8 @@
   }, 
   {
     "text": [
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> of the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> of the same size as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -439,8 +439,8 @@
   }, 
   {
     "text": [
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> of the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> of the same color as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -559,8 +559,8 @@
   }, 
   {
     "text": [
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> made of the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> made of the same material as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {
@@ -679,8 +679,8 @@
   }, 
   {
     "text": [
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>", 
-      "any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> of the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that have the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>",
+      "Any other <ORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> of the same shape as the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR>"
     ], 
     "nodes": [
       {

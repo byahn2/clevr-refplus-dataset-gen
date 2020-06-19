@@ -1,8 +1,8 @@
 [
   {
     "text": [
-      "things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>", 
-      "objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
+      "Things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>",
+      "Objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
     ], 
     "nodes": [
       {
@@ -429,8 +429,8 @@
   }, 
   {
     "text": [
-      "things that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are <R2> the <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>", 
-      "objects that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are <R2> the <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>"
+      "things that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R2> of the <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3>",
+      "objects that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM4> <VIS4> <Z4> <C4> <M4> <S4>(s) <ORD_DIR4> that are to the <R2> of the <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3> <ORD_DIR3>"
     ], 
     "nodes": [
       {
@@ -944,8 +944,8 @@
   }, 
   {
     "text": [
-      "things that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>", 
-      "objects that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are <R> the <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>"
+      "Things that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>",
+      "Objects that are [either] <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2> that are to the <R> of the <rORD_NUM> <VIS> <Z> <C> <M> <S> <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3>"
     ], 
     "nodes": [
       {
@@ -1110,8 +1110,8 @@
   }, 
   {
     "text": [
-      "things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R> the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>", 
-      "objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are <R> the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2>(s) <ORD_DIR2>"
+      "Things that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are to the <R> of the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2>",
+      "Objects that are [either] <rORD_NUM> <VIS> <Z> <C> <M> <S>(s) <ORD_DIR> or <rORD_NUM3> <VIS3> <Z3> <C3> <M3> <S3>(s) <ORD_DIR3> that are to the <R> of the <rORD_NUM2> <VIS2> <Z2> <C2> <M2> <S2> <ORD_DIR2>"
     ], 
     "nodes": [
       {
