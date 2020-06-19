@@ -6,10 +6,10 @@
   "small": ["small", "tiny"],
   "metal": ["metallic", "metal", "shiny"],
   "rubber": ["rubber", "matte"],
-  "left": ["left of", "to the left of", "on the left side of"],
-  "right": ["right of", "to the right of", "on the right side of"],
-  "behind": ["behind"],
-  "front": ["in front of"],
+  "left": ["left"],
+  "right": ["right"],
+  "behind": ["back"],
+  "front": ["front"],
   "above": ["above"],
   "below": ["below"]
 }

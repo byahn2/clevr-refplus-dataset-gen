@@ -786,7 +786,6 @@ def main(args):
         print('that took ', toc - tic)
       image_index = int(os.path.splitext(scene_fn)[0].split('_')[-1])
       for t, q, a in zip(ts, qs, ans):
-        #BRYCE CODE
         ref_idx = {'same_relate.json': 1, 'same_relate_b.json': 2, 'zero_hop.json': 3, 'zero_hop_b.json': 4,
                    'one_hop.json': 5, 'one_hop_b.json': 6, 'two_hop.json': 7, 'two_hop_b.json': 8, 'three_hop.json': 9,
                    'three_hop_b.json': 10, 'single_and.json': 11, 'single_and_b.json': 12, 'single_or.json': 13,
@@ -802,7 +801,6 @@ def main(args):
           'template_filename': fn,
           'refexp_family_index': ref_idx[fn], #idx,
           'refexp_index': len(refexps),
-          # BRYCE CODE
         })
       if len(ts) > 0:
         if args.verbose:

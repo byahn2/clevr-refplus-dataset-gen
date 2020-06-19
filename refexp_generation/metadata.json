@@ -104,6 +104,64 @@
       "terminal": false
     },
     {
+      "name": "not",
+      "inputs": ["ObjectSet", "ObjectSet"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "two_unique",
+      "inputs": ["ObjectSet"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "three_unique",
+      "inputs": ["ObjectSet"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "four_unique",
+      "inputs": ["ObjectSet"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "five_unique",
+      "inputs": ["ObjectSet"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "farthest",
+      "inputs": ["ObjectSet"],
+      "side_inputs": ["Relation"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "two_farthest",
+      "inputs": ["ObjectSet"],
+      "side_inputs": ["Relation"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "three_farthest",
+      "inputs": ["ObjectSet"],
+      "side_inputs": ["Relation"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
+      "name": "four_farthest",
+      "inputs": ["ObjectSet"],
+      "side_inputs": ["Relation"],
+      "output": "ObjectSet",
+      "terminal": false
+    },
+    {
       "name": "count",
       "inputs": ["ObjectSet"],
       "output": "Integer",
