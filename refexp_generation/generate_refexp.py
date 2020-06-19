@@ -324,7 +324,7 @@ def instantiate_templates_dfs(scene_struct, template, metadata, answer_counts,
 
     # Check to make sure the current state is valid
     q = {'nodes': state['nodes']}
-    outputs = qeng.answer_refexp(q, metadata, scene_struct, all_outputs=True)
+    outputs = qeng.answer_refexp(q, metadata, scene_struct, all_outputs=True) # error 1
     answer = outputs[-1]
     if answer == '__INVALID__': 
       failed_time += 1
@@ -469,7 +469,7 @@ def instantiate_templates_dfs(scene_struct, template, metadata, answer_counts,
             num_to_option[cnt].append(it_k)
 
         # choose one num randomly
-        rd_num = random.choice(num_to_option.keys())
+        rd_num = random.choice(list(num_to_option.keys()))
         # return one option_key
         choice = random.choice(num_to_option[rd_num])
         return choice
@@ -497,7 +497,7 @@ def instantiate_templates_dfs(scene_struct, template, metadata, answer_counts,
           cur_next_vals[param_name] = param_val
           next_input = len(state['nodes']) + len(new_nodes) - 1
 
-        param_name_val_pair = zip(filter_side_inputs, k)
+        param_name_val_pair = list(zip(filter_side_inputs, k))
 
         param_name_val_pair = param_name_val_pair[:4] + \
                               [[[param_name_val_pair[4][0],param_name_val_pair[5][0]],
@@ -777,7 +777,7 @@ def main(args):
                       synonyms,
                       max_instances=args.instances_per_template,
                       verbose=False,
-                      trivial_frac=args.trivial_frac)
+                      trivial_frac=args.trivial_frac) # error 1
 
       toc = time.time()
 
@@ -786,6 +786,12 @@ def main(args):
         print('that took ', toc - tic)
       image_index = int(os.path.splitext(scene_fn)[0].split('_')[-1])
       for t, q, a in zip(ts, qs, ans):
+        #BRYCE CODE
+        ref_idx = {'same_relate.json': 1, 'same_relate_b.json': 2, 'zero_hop.json': 3, 'zero_hop_b.json': 4,
+                   'one_hop.json': 5, 'one_hop_b.json': 6, 'two_hop.json': 7, 'two_hop_b.json': 8, 'three_hop.json': 9,
+                   'three_hop_b.json': 10, 'single_and.json': 11, 'single_and_b.json': 12, 'single_or.json': 13,
+                   'single_or_b.json': 14, 'single_not.json': 15, 'single_not_b.json': 16, 'count_returns.json': 17,
+                   'check_farthest.json': 18}
         refexps.append({
           'split': scene_info['split'],
           'image_filename': scene_fn,
@@ -794,8 +800,9 @@ def main(args):
           'refexp': t,
           'program': q,
           'template_filename': fn,
-          'refexp_family_index': idx,
+          'refexp_family_index': ref_idx[fn], #idx,
           'refexp_index': len(refexps),
+          # BRYCE CODE
         })
       if len(ts) > 0:
         if args.verbose:
