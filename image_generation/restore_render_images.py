@@ -382,6 +382,7 @@ def render_scene(args,
   cmd = ['python','./restore_img2json.py', str(index), str(idx)]
   res = subprocess.Popen(cmd, stdout=subprocess.PIPE)
   res.wait()
+  print('res: ', res.returncode)
   if res.returncode != 0:
     print("  os.wait:exit status != 0\n")
     result = res.stdout.read()
@@ -459,6 +460,7 @@ def add_random_objects(scene_struct, args, camera, idx):
 
     # Record data about the object in the scene data structure
     pixel_coords, _wh = utils.get_camera_coords(camera, obj.location)
+    #pixel_coords = utils.get_camera_coords(camera, obj.location)
     objects.append({
       'shape': obj_name_out,
       'size': size_name,
